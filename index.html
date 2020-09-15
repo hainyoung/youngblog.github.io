@@ -5,93 +5,55 @@
 
 <!doctype html>
 <html>
-
     <head>
         <title>HI, YOUNG</title>
         <meta charset="utf-8">
-            <!-- Global site tag (gtag.js) - Google Analytics -->
-            <script
-                async="async"
-                src="https://www.googletagmanager.com/gtag/js?id=UA-177895999-1"></script>
-            <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag() {
-                    dataLayer.push(arguments);
-                }
-                gtag('js', new Date());
+            <link rel="stylesheet" href="style.css">
 
-                gtag('config', 'UA-177895999-1');
-            </script>
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+                <script
+                    async="async"
+                    src="https://www.googletagmanager.com/gtag/js?id=UA-177895999-1"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag() {
+                        dataLayer.push(arguments);
+                    }
+                    gtag('js', new Date());
+                    gtag('config', 'UA-177895999-1');
+                </script>
+            </head>
 
-            <!--style tag 안 쪽은 CSS 언어니까, 이것을 CSS라는 언어의 문법에 맞게 해석해서 처리해라!-->
-
-        </head>
-
-        <body>
-            <h1>
-                <a href="index.html">HI, YOUNG</a>
-            </h1>
-            <ol>
-                <li>
-                    <a href="1.html">HOME</a>
-                </li>
-                <li>
-                    <a href="2.html">SERVICE</a>
-                </li>
-                <li>
-                    <a href="3.html">ABOUT</a>
-                </li>
-                <li>
-                    <a href="4.html">PROJECTS</a>
-                </li>
-                <li>
-                    <a href="5.html">CONTACT</a>
-                </li>
-                <!-- <h1> <a href="index.html"><font color="red">HI, YOUNG</font></a></h1> <ol>
-                <li> <a href="1.html"><font color="red">HOME</font></a> </li> <li> <a
-                href="2.html"><font color="red">SERVICE</font></a> </li> <li> <a
-                href="3.html"><font color="red">ABOUT</font></a> </li> <li> <a
-                href="4.html"><font color="red">PROJECTS</font></a> </li> <li> <a
-                href="5.html"><font color="red">CONTACT</font></a> </li> </ol>-->
-
-                <!-- ul, ol의 자식태그 : li, li의 부모태그 : ul-->
-                <!-- ol : ordered list, ul : unordered list-->
-
-                <h2>Welcome to My World</h2>
-                <p>Thank you for visiting My Website! I hope you found somoething that sparked
-                    interest on my website.
-                </p>
-
-                <p style="margin-top:40px;">
-                    <u>
-                        <a
-                            href="https://en.wikipedia.org/wiki/Artificial_intelligence"
-                            target="_blank"
-                            title="A.I specification">Artificial intelligence (AI)</a>
-                    </u>, sometimes called machine intelligence, is intelligence demonstrated by
-                    machines, unlike the natural intelligence displayed by humans and animals.<br>
-                        Leading AI textbooks define the field as the study of "intelligent agents": any
-                        device that perceives its environment and takes actions that maximize its chance
-                        of successfully achieving its goals.<br>
-                            Colloquially, the term "artificial intelligence" is often used to describe
-                            machines (or computers) that mimic "cognitive" functions that humans associate
-                            with the human mind, such as "learning" and "problem solving".</p>
-
-                        <img src="coding.jpg" width="100%">
-                            <!-- src=, width= attribute에 해당-->
-
-                            <p>As machines become increasingly capable, tasks considered to require
-                                "intelligence" are often removed from the definition of AI, a phenomenon known
-                                as the AI effect. A quip in Tesler's Theorem says "AI is whatever hasn't been
-                                done yet."<br>
-                                    For instance, optical character recognition is frequently excluded from things
-                                    considered to be AI, having become a routine technology.<br>
-                                        Modern machine capabilities generally classified as AI include successfully
-                                        understanding human speech, competing at the highest level in strategic game
-                                        systems (such as chess and Go), autonomously operating cars, intelligent routing
-                                        in content delivery networks, and military simulations.</p>
-
-                                    <h6>from WIKIPEDIA</h6>
-                                </body>
-
-                            </html>
+            <body>
+                <h1>
+                    <a href="index.html">HI, YOUNG</a>
+                </h1>
+                <div id="grid">
+                    <ol>
+                        <li>
+                            <a href="1.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="2.html">SERVICE</a>
+                        </li>
+                        <li>
+                            <a href="3.html">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="4.html">PROJECTS</a>
+                        </li>
+                        <li>
+                            <a href="5.html">CONTACT</a>
+                        </li>
+                    </ol>
+                    <!-- ul, ol의 자식태그 : li, li의 부모태그 : ul-->
+                    <!-- ol : ordered list, ul : unordered list-->
+                    <div id="article">
+                        <h2>Welcome to My World</h2>
+                        <p>Thank you for visiting My Website! I hope you found somoething that sparked
+                            interest on my website.
+                    </div>
+                </div>
+                <h6>from WIKIPEDIA</h6>
+            </body>
+        </html>
